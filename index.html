@@ -36,7 +36,8 @@
             'accent': '#FFDC26',
             'header': '#FFF9F4',
             'text': '#111111',
-            'card': '#F9DF8A'
+            'card': '#F9DF8A',
+            'border': '#1111111A'
 
 
           }
@@ -99,8 +100,8 @@
   </header>
   <main class=" my-16">
     <section>
-      <div class="relative px-36">
-        <div class="space-y-5 absolute ">
+      <div class=" px-36 ">
+        <div class="space-y-5  ">
           <h1 class="text-6xl adlam-display sm:text-3xl">Pamper Your Pet,<br>Because They Deserve<br>the Bes</h1>
           <h6 class="text-xl text sm:text-base">Discover a world of treats, toys, and essentials handpicked for<br>your
             furry friends. Shop now and make tails
@@ -124,7 +125,7 @@
 
         
             <div class="avatar">
-              <div class=" rounded-full bg-white ring ring-offset-2">
+              <div class=" rounded-full bg-white p-4">
                 <img src="c1-assets/dog-cartoon.png" alt="">
               </div>
             </div>
@@ -134,7 +135,7 @@
           <div class=" flex w-full items-center bg-card p-11 gap-y-3 flex-col card shadow-xl">
 
             <div class="avatar">
-              <div class=" rounded-full bg-white ring ring-offset-2">
+              <div class=" rounded-full bg-white  p-4">
                 <img src="c1-assets/fish-cartoon.png" alt="">
               </div>
             </div>
@@ -145,7 +146,7 @@
           <div class=" flex w-full items-center bg-card p-11 gap-y-3 flex-col card shadow-xl">
 
             <div class="avatar">
-              <div class=" rounded-full bg-white ring ring-offset-2">
+              <div class=" rounded-full bg-white  p-4">
                 <img src="c1-assets/cat-cartoon.png" alt="">
               </div>
             </div>
@@ -156,7 +157,7 @@
           <div class=" flex w-full items-center bg-card p-11 gap-y-3  flex-col card shadow-xl">
 
             <div class="avatar">
-              <div class=" rounded-full bg-white ring ring-offset-2">
+              <div class=" rounded-full bg-white  p-4">
                 <img src="c1-assets/bird-cartoon.png" alt="">
               </div>
             </div>
@@ -167,7 +168,7 @@
           <div class=" flex w-full items-center bg-card p-11 gap-y-3 flex-col card shadow-xl">
 
             <div class="avatar">
-              <div class=" rounded-full bg-white ring ring-offset-2">
+              <div class=" rounded-full bg-white  p-4">
                 <img src="c1-assets/mouse-cartoon.png" alt="">
               </div>
             </div>
@@ -178,7 +179,7 @@
           <div class=" flex w-full items-center bg-card p-11 gap-y-3 flex-col card shadow-xl">
 
             <div class="avatar">
-              <div class=" rounded-full bg-white ring ring-offset-2">
+              <div class=" rounded-full bg-white  p-4">
                 <img src="c1-assets/rabbit-cartoon.png" alt="">
               </div>
             </div>
@@ -195,17 +196,17 @@
           <h1 class="adlam-display text-4xl">Trending Pet Products</h1>
         </div>
         <div class=" flex flex-row gap-4">
-          <div class=" flex bg-card p-11 card w-1/3">
-            <div class="flex flex-col gap-7">
+          <div class="relative flex bg-card p-11 card w-1/3">
+            <div class="flex flex-col gap-y-3">
               <h1 class=" adlam-display text-2xl">T-Shirt For Dogs</h1>
-              <p class="">Discover a world of treats,toys and essentials handpicked for</p>
+              <p class="text-xs">Discover a world of treats,toys and essentials handpicked for</p>
               
 
 
              
-                  <button class="btn bg-white py-2.5 px-7 w-36">Shop Now</button>
+                  <button class="btn bg-white py-1 px-3 w-28">Shop Now</button>
                 </div>
-                <div class="absolute bottom-7 right-5">
+                <div class="absolute bottom-7 right-0.5 w-1/2">
                   <img src="c1-assets/cute-pet-small.png" alt="">
               </div>
             </div>
@@ -214,234 +215,257 @@
           <div class="grid grid-cols-3 grid-rows-3 gap-4">
          
             
-            <div class="flex gap-x-5 flex-row h-28 card bg-white shadow-xl py-4 pl-4  pr-20">
-              <div class=" bg-header rounded-xl p-5">
-                <div class="avatar">
-                  <div class=" rounded">
-                    <img src="c1-assets/dog-cartoon.png" alt="">
-                  </div>
-                </div>
-              </div>
+            
+        <div class=" flex flex-row items-center gap-x-3 card rounded-xl  bg-white border">
+          <div class=" bg-header rounded-xl p-3 h-24 ml-4">
+            <div class="avatar items-center flex ">
+              <div class=" rounded">
+            <img src="c1-assets/dog-cartoon.png" alt="" class="items-center flex">
 
-              <div class=" flex flex-col ">
-                <div class=" flex flex-row gap-x-3">
-                  <div class="rating">
-                    <input type="radio" id="star1" name="rating" value="1" class="hidden" />
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
-
-                  </div>
-                  <p >4.5</p>
-                </div>
-                <h3 class="text-xl">Pet Bed</h3>
-                <p class="">$39.99</p>
-
+          </div>
+        </div>
+      </div> 
+          <div class="flex flex-col my-4 mr-14 gap-y-1">
+            <div class=" flex flex-row  gap-x-3">
+              <div class="rating">
+                <input type="radio" id="star1" name="rating" value="1" class="hidden" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
 
               </div>
+              <p class="text-base font-medium text-slate-950">4.5</p>
             </div>
-       
-            <div class="flex gap-x-5 flex-row h-28 card bg-white shadow-xl py-4 pl-4  pr-20">
-              <div class=" bg-header rounded-xl p-5">
-                <div class="avatar">
-                  <div class=" rounded">
-                    <img src="c1-assets/dog-cartoon.png" alt="">
-                  </div>
-                </div>
-              </div>
-
-              <div class=" flex flex-col ">
-                <div class=" flex flex-row gap-x-3">
-                  <div class="rating">
-                    <input type="radio" id="star1" name="rating" value="1" class="hidden" />
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
-
-                  </div>
-                  <p >4.5</p>
-                </div>
-                <h3 class="text-xl">Pet Bed</h3>
-                <p class="">$39.99</p>
-
-
-              </div>
-            </div>
-       
-            <div class="flex gap-x-5 flex-row h-28 card bg-white shadow-xl py-4 pl-4  pr-20">
-              <div class=" bg-header rounded-xl p-5">
-                <div class="avatar">
-                  <div class=" rounded">
-                    <img src="c1-assets/dog-cartoon.png" alt="">
-                  </div>
-                </div>
-              </div>
-
-              <div class=" flex flex-col ">
-                <div class=" flex flex-row gap-x-3">
-                  <div class="rating">
-                    <input type="radio" id="star1" name="rating" value="1" class="hidden" />
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
-
-                  </div>
-                  <p >4.5</p>
-                </div>
-                <h3 class="text-xl">Pet Bed</h3>
-                <p class="">$39.99</p>
-
-
-              </div>
-            </div>
-       
-            <div class="flex gap-x-5 flex-row h-28 card bg-white shadow-xl py-4 pl-4  pr-20">
-              <div class=" bg-header rounded-xl p-5">
-                <div class="avatar">
-                  <div class=" rounded">
-                    <img src="c1-assets/dog-cartoon.png" alt="">
-                  </div>
-                </div>
-              </div>
-
-              <div class=" flex flex-col ">
-                <div class=" flex flex-row gap-x-3">
-                  <div class="rating">
-                    <input type="radio" id="star1" name="rating" value="1" class="hidden" />
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
-
-                  </div>
-                  <p >4.5</p>
-                </div>
-                <h3 class="text-xl">Pet Bed</h3>
-                <p class="">$39.99</p>
-
-
-              </div>
-            </div>
-       
-            <div class="flex gap-x-5 flex-row h-28 card bg-white shadow-xl py-4 pl-4  pr-20">
-              <div class=" bg-header rounded-xl p-5">
-                <div class="avatar">
-                  <div class=" rounded">
-                    <img src="c1-assets/dog-cartoon.png" alt="">
-                  </div>
-                </div>
-              </div>
-
-              <div class=" flex flex-col ">
-                <div class=" flex flex-row gap-x-3">
-                  <div class="rating">
-                    <input type="radio" id="star1" name="rating" value="1" class="hidden" />
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
-
-                  </div>
-                  <p >4.5</p>
-                </div>
-                <h3 class="text-xl">Pet Bed</h3>
-                <p class="">$39.99</p>
-
-
-              </div>
-            </div>
-       
-            <div class="flex gap-x-5 flex-row h-28 card bg-white shadow-xl py-4 pl-4  pr-20">
-              <div class=" bg-header rounded-xl p-5">
-                <div class="avatar">
-                  <div class=" rounded">
-                    <img src="c1-assets/dog-cartoon.png" alt="">
-                  </div>
-                </div>
-              </div>
-
-              <div class=" flex flex-col ">
-                <div class=" flex flex-row gap-x-3">
-                  <div class="rating">
-                    <input type="radio" id="star1" name="rating" value="1" class="hidden" />
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
-
-                  </div>
-                  <p >4.5</p>
-                </div>
-                <h3 class="text-xl">Pet Bed</h3>
-                <p class="">$39.99</p>
-
-
-              </div>
-            </div>
-       
-            <div class="flex gap-x-5 flex-row h-28 card bg-white shadow-xl py-4 pl-4  pr-20">
-              <div class=" bg-header rounded-xl p-5">
-                <div class="avatar">
-                  <div class=" rounded">
-                    <img src="c1-assets/dog-cartoon.png" alt="">
-                  </div>
-                </div>
-              </div>
-
-              <div class=" flex flex-col ">
-                <div class=" flex flex-row gap-x-3">
-                  <div class="rating">
-                    <input type="radio" id="star1" name="rating" value="1" class="hidden" />
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
-
-                  </div>
-                  <p >4.5</p>
-                </div>
-                <h3 class="text-xl">Pet Bed</h3>
-                <p class="">$39.99</p>
-
-
-              </div>
-            </div>
-       
-            <div class="flex gap-x-5 flex-row h-28 card bg-white shadow-xl py-4 pl-4  pr-20">
-              <div class=" bg-header rounded-xl p-5">
-                <div class="avatar">
-                  <div class=" rounded">
-                    <img src="c1-assets/dog-cartoon.png" alt="">
-                  </div>
-                </div>
-              </div>
-
-              <div class=" flex flex-col ">
-                <div class=" flex flex-row gap-x-3">
-                  <div class="rating">
-                    <input type="radio" id="star1" name="rating" value="1" class="hidden" />
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
-
-                  </div>
-                  <p >4.5</p>
-                </div>
-                <h3 class="text-xl">Pet Bed</h3>
-                <p class="">$39.99</p>
-
-
-              </div>
-            </div>
-       
-            <div class="flex gap-x-5 flex-row h-28 card bg-white shadow-xl py-4 pl-4  pr-20">
-              <div class=" bg-header rounded-xl p-5">
-                <div class="avatar">
-                  <div class=" rounded">
-                    <img src="c1-assets/dog-cartoon.png" alt="">
-                  </div>
-                </div>
-              </div>
-
-              <div class=" flex flex-col ">
-                <div class=" flex flex-row gap-x-3">
-                  <div class="rating">
-                    <input type="radio" id="star1" name="rating" value="1" class="hidden" />
-                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
-
-                  </div>
-                  <p >4.5</p>
-                </div>
-                <h3 class="text-xl">Pet Bed</h3>
-                <p class="">$39.99</p>
-
-
-              </div>
-            </div>
+            <h3 class="text-xl font-medium text-nowrap text-slate-950">Pet Bed</h3>
+            <p class="text-base text-slate-950 font-medium">$39.99</p>
+          </div>
+          
        
             
            
+          
+        </div>
+            
+        <div class=" flex flex-row items-center gap-x-3 card rounded-xl  bg-white border">
+          <div class=" bg-header rounded-xl p-3 h-24 ml-4">
+            <div class="avatar ">
+              <div class=" rounded">
+            <img src="c1-assets/fish-cartoon.png" alt="" class="items-center">
+
           </div>
+        </div>
+      </div> 
+          <div class="flex flex-col my-4 mr-14 gap-y-1">
+            <div class=" flex flex-row  gap-x-3">
+              <div class="rating">
+                <input type="radio" id="star1" name="rating" value="1" class="hidden" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+
+              </div>
+              <p class="text-base font-medium text-slate-950">4.5</p>
+            </div>
+            <h3 class="text-xl font-medium text-nowrap text-slate-950">Pet Bed</h3>
+            <p class="text-base text-slate-950 font-medium">$39.99</p>
+          </div>
+          
+       
+            
+           
+          
+        </div>
+            
+        <div class=" flex flex-row items-center gap-x-3 card rounded-xl  bg-white border">
+          <div class=" bg-header rounded-xl p-3 h-24 ml-4">
+            <div class="avatar ">
+              <div class=" rounded">
+            <img src="c1-assets/bird-cartoon.png" alt="" class="items-center">
+
+          </div>
+        </div>
+      </div> 
+          <div class="flex flex-col my-4 mr-14 gap-y-1">
+            <div class=" flex flex-row  gap-x-3">
+              <div class="rating">
+                <input type="radio" id="star1" name="rating" value="1" class="hidden" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+
+              </div>
+              <p class="text-base font-medium text-slate-950">4.5</p>
+            </div>
+            <h3 class="text-xl font-medium text-nowrap text-slate-950">Pet Bed</h3>
+            <p class="text-base text-slate-950 font-medium">$39.99</p>
+          </div>
+          
+       
+            
+           
+          
+        </div>
+            
+        <div class=" flex flex-row items-center gap-x-3 card rounded-xl  bg-white border">
+          <div class=" bg-header rounded-xl p-3 h-24 ml-4">
+            <div class="avatar ">
+              <div class=" rounded">
+            <img src="c1-assets/rabbit-cartoon.png" alt="" class="items-center">
+
+          </div>
+        </div>
+      </div> 
+          <div class="flex flex-col my-4 mr-14 gap-y-1">
+            <div class=" flex flex-row  gap-x-3">
+              <div class="rating">
+                <input type="radio" id="star1" name="rating" value="1" class="hidden" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+
+              </div>
+              <p class="text-base font-medium text-slate-950">4.5</p>
+            </div>
+            <h3 class="text-xl font-medium text-nowrap text-slate-950">Pet Bed</h3>
+            <p class="text-base text-slate-950 font-medium">$39.99</p>
+          </div>
+          
+       
+            
+           
+          
+        </div>
+            
+        <div class=" flex flex-row items-center gap-x-3 card rounded-xl  bg-white border">
+          <div class=" bg-header rounded-xl p-3 h-24 ml-4">
+            <div class="avatar ">
+              <div class=" rounded">
+            <img src="c1-assets/bird-cartoon.png" alt="" class="items-center">
+
+          </div>
+        </div>
+      </div> 
+          <div class="flex flex-col my-4 mr-14 gap-y-1">
+            <div class=" flex flex-row  gap-x-3">
+              <div class="rating">
+                <input type="radio" id="star1" name="rating" value="1" class="hidden" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+
+              </div>
+              <p class="text-base font-medium text-slate-950">4.5</p>
+            </div>
+            <h3 class="text-xl font-medium text-nowrap text-slate-950">Pet Bed</h3>
+            <p class="text-base text-slate-950 font-medium">$39.99</p>
+          </div>
+          
+       
+            
+           
+          
+        </div>
+            
+        <div class=" flex flex-row items-center gap-x-3 card rounded-xl  bg-white border">
+          <div class=" bg-header rounded-xl p-3 h-24 ml-4">
+            <div class="avatar ">
+              <div class=" rounded">
+            <img src="c1-assets/pet-couch.png" alt="" class="items-center">
+
+          </div>
+        </div>
+      </div> 
+          <div class="flex flex-col my-4 mr-14 gap-y-1">
+            <div class=" flex flex-row  gap-x-3">
+              <div class="rating">
+                <input type="radio" id="star1" name="rating" value="1" class="hidden" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+
+              </div>
+              <p class="text-base font-medium text-slate-950">4.5</p>
+            </div>
+            <h3 class="text-xl font-medium text-nowrap text-slate-950">Pet Bed</h3>
+            <p class="text-base text-slate-950 font-medium">$39.99</p>
+          </div>
+          
+       
+            
+           
+          
+        </div>
+            
+        <div class=" flex flex-row items-center gap-x-3 card rounded-xl  bg-white border">
+          <div class=" bg-header rounded-xl p-3 h-24 ml-4">
+            <div class="avatar ">
+              <div class=" rounded">
+            <img src="c1-assets/fish-cartoon.png" alt="" class="items-center">
+
+          </div>
+        </div>
+      </div> 
+          <div class="flex flex-col my-4 mr-14 gap-y-1">
+            <div class=" flex flex-row  gap-x-3">
+              <div class="rating">
+                <input type="radio" id="star1" name="rating" value="1" class="hidden" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+
+              </div>
+              <p class="text-base font-medium text-slate-950">4.5</p>
+            </div>
+            <h3 class="text-xl font-medium text-nowrap text-slate-950">Pet Bed</h3>
+            <p class="text-base text-slate-950 font-medium">$39.99</p>
+          </div>
+          
+       
+            
+           
+          
+        </div>
+            
+        <div class=" flex flex-row items-center gap-x-3 card rounded-xl  bg-white border">
+          <div class=" bg-header rounded-xl p-3 h-24 ml-4">
+            <div class="avatar ">
+              <div class=" rounded">
+            <img src="c1-assets/pet-couch.png" alt="" class="items-center">
+
+          </div>
+        </div>
+      </div> 
+          <div class="flex flex-col my-4 mr-14 gap-y-1">
+            <div class=" flex flex-row  gap-x-3">
+              <div class="rating">
+                <input type="radio" id="star1" name="rating" value="1" class="hidden" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+
+              </div>
+              <p class="text-base font-medium text-slate-950">4.5</p>
+            </div>
+            <h3 class="text-xl font-medium text-nowrap text-slate-950">Pet Bed</h3>
+            <p class="text-base text-slate-950 font-medium">$39.99</p>
+          </div>
+          
+       
+            
+           
+          
+        </div>
+            
+        <div class=" flex flex-row items-center gap-x-3 card rounded-xl  bg-white border">
+          <div class=" bg-header rounded-xl p-3 h-24 w-24 ml-4">
+            <div class="avatar ">
+              <div class=" rounded">
+            <img src="c1-assets/rabbit-cartoon.png" alt="" class="items-center">
+
+          </div>
+        </div>
+      </div> 
+          <div class="flex flex-col my-4 mr-14 gap-y-1">
+            <div class=" flex flex-row  gap-x-3">
+              <div class="rating">
+                <input type="radio" id="star1" name="rating" value="1" class="hidden" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+
+              </div>
+              <p class="text-base font-medium text-slate-950">4.5</p>
+            </div>
+            <h3 class="text-xl font-medium text-nowrap text-slate-950">Pet Bed</h3>
+            <p class="text-base text-slate-950 font-medium">$39.99</p>
+          </div>
+          
+       
+            
+           
+          
         </div>
     </section>
     <section>
@@ -534,3 +558,6 @@
 </body>
 
 </html>
+   
+
+
